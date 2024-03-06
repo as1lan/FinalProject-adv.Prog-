@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender & Ethnicity Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gender & Ethnicity Prediction</h1>
+        </header>
+
+        <div class="upload-section">
+            <label for="imageInput" class="file-label">Choose an Image</label>
+            <input type="file" id="imageInput" accept="image/*">
+        </div>
+
+        <div class="canvas-container">
+            <canvas id="canvas" width="48" height="48"></canvas>
+        </div>
+
+        <button onclick="predict()">Predict</button>
+
+        <div class="results">
+            <h2>Results:</h2>
+            <p>Gender: <span id="genderResult"></span></p>
+            <p>Ethnicity: <span id="ethnicityResult"></span></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="app.js"></script>
+</body>
+</html>
