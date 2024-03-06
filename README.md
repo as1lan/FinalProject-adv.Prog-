@@ -6,7 +6,7 @@ Facial authentication based on gender and ethnicity classification has gained si
 ## Dataset:
 We utilized the UTK dataset, which consists of facial images labeled with age, gender, and ethnicity. The dataset was preprocessed and imported into Google Drive for accessibility.
 
-- **Dataset Link:** [UTK Dataset](https://www.kaggle.com/datasets/nipunarora8/age-gender-and-ethnicity-face-data-csv/data)
+- **Dataset Link:** [Dataset](https://www.kaggle.com/datasets/nipunarora8/age-gender-and-ethnicity-face-data-csv/data)
 - **Google Drive Link:** [Google Drive Dataset](https://drive.google.com/drive/folders/1dO2G-VW-6YBIjUEYtyWsF6DB0a-8-LRf?usp=share_link)
 
 ## Data Preprocessing:
